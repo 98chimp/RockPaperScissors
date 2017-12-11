@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		EB5F05671FD8E24400EDEB3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5F05661FD8E24400EDEB3C /* AppDelegate.swift */; };
-		EB5F05691FD8E24500EDEB3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5F05681FD8E24500EDEB3C /* ViewController.swift */; };
 		EB5F056C1FD8E24500EDEB3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB5F056A1FD8E24500EDEB3C /* Main.storyboard */; };
 		EB5F056E1FD8E24500EDEB3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB5F056D1FD8E24500EDEB3C /* Assets.xcassets */; };
 		EB5F05711FD8E24500EDEB3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB5F056F1FD8E24500EDEB3C /* LaunchScreen.storyboard */; };
 		EB5F057C1FD8E24500EDEB3C /* RockPaperScissorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5F057B1FD8E24500EDEB3C /* RockPaperScissorsTests.swift */; };
 		EB5F05871FD8E24500EDEB3C /* RockPaperScissorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5F05861FD8E24500EDEB3C /* RockPaperScissorsUITests.swift */; };
+		EB5F05951FD8EB9300EDEB3C /* RPSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5F05941FD8EB9300EDEB3C /* RPSViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		EB5F05631FD8E24400EDEB3C /* RockPaperScissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB5F05661FD8E24400EDEB3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB5F05681FD8E24500EDEB3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EB5F056B1FD8E24500EDEB3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB5F056D1FD8E24500EDEB3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB5F05701FD8E24500EDEB3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		EB5F05821FD8E24500EDEB3C /* RockPaperScissorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPaperScissorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB5F05861FD8E24500EDEB3C /* RockPaperScissorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsUITests.swift; sourceTree = "<group>"; };
 		EB5F05881FD8E24500EDEB3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB5F05941FD8EB9300EDEB3C /* RPSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPSViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				EB5F05661FD8E24400EDEB3C /* AppDelegate.swift */,
-				EB5F05681FD8E24500EDEB3C /* ViewController.swift */,
+				EB5F05941FD8EB9300EDEB3C /* RPSViewController.swift */,
 				EB5F056A1FD8E24500EDEB3C /* Main.storyboard */,
 				EB5F056D1FD8E24500EDEB3C /* Assets.xcassets */,
 				EB5F056F1FD8E24500EDEB3C /* LaunchScreen.storyboard */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB5F05691FD8E24500EDEB3C /* ViewController.swift in Sources */,
+				EB5F05951FD8EB9300EDEB3C /* RPSViewController.swift in Sources */,
 				EB5F05671FD8E24400EDEB3C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
